@@ -1,0 +1,30 @@
+﻿@model HastaneUygulamasi.Models.Odalar
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Oda Giriş</h1>
+
+<h6>Odalar</h6>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="OdaNumarası" class="control-label"></label>
+                <input asp-for="OdaNumarası" class="form-control" />
+                <span asp-validation-for="OdaNumarası" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Kaydet" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Listeye dön</a>
+</div>

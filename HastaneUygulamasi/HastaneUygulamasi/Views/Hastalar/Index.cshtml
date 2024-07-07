@@ -1,0 +1,59 @@
+﻿@model IEnumerable<HastaneUygulamasi.Models.Hastalar>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Hasta Bilgileri</h1>
+
+<p>
+    <a asp-action="Create">Yeni Hasta Giriş</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HastaAdi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DogumTarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Katlar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Odalar)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.HastaAdi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DogumTarihi)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Katid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Odaid)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Güncelle</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

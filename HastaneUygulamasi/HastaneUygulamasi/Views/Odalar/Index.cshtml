@@ -1,0 +1,35 @@
+﻿@model IEnumerable<HastaneUygulamasi.Models.Odalar>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Hasta Oda Giriş</h1>
+
+<p>
+    <a asp-action="Create">Yeni Oda Oluştur</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OdaNumarası)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.OdaNumarası)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Güncelle</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

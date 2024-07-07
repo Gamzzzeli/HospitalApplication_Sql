@@ -1,0 +1,91 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HastaneUygulamasi
+build_property.RootNamespace = HastaneUygulamasi
+build_property.ProjectDir = C:\Users\DELL\OneDrive\Masaüstü\HastaneUygulamasi\HastaneUygulamasi\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\DELL\OneDrive\Masaüstü\HastaneUygulamasi\HastaneUygulamasi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Hastalar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFsYXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Hastalar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFsYXJcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Hastalar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFsYXJcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Hastalar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFzdGFsYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Katlar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0bGFyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Katlar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0bGFyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Katlar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0bGFyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Katlar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2F0bGFyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Odalar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RhbGFyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Odalar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RhbGFyXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Odalar/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RhbGFyXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Odalar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RhbGFyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/DELL/OneDrive/Masaüstü/HastaneUygulamasi/HastaneUygulamasi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-x7efe07o6g
